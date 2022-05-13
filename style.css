@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='1200' preserveAspectRatio='none' viewBox='0 0 1440 1200'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1034%26quot%3b)' fill='none'%3e%3crect width='1440' height='1200' x='0' y='0' fill='url(%23SvgjsLinearGradient1035)'%3e%3c/rect%3e%3cpath d='M362.81 743.86 a210.25 210.25 0 1 0 420.5 0 a210.25 210.25 0 1 0 -420.5 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M630.91 567.37 a211.37 211.37 0 1 0 422.74 0 a211.37 211.37 0 1 0 -422.74 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-181.13 225.14 a388.96 388.96 0 1 0 777.92 0 a388.96 388.96 0 1 0 -777.92 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M866.15 146.35 a382.99 382.99 0 1 0 765.98 0 a382.99 382.99 0 1 0 -765.98 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M-39.14 1056.4 a341.6 341.6 0 1 0 683.2 0 a341.6 341.6 0 1 0 -683.2 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M975.09 848.82 a386.17 386.17 0 1 0 772.34 0 a386.17 386.17 0 1 0 -772.34 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M942.31 413.76 a335.38 335.38 0 1 0 670.76 0 a335.38 335.38 0 1 0 -670.76 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M570.48 361.96 a329.11 329.11 0 1 0 658.22 0 a329.11 329.11 0 1 0 -658.22 0z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1034'%3e%3crect width='1440' height='1200' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1035'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='%2300459e' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.memory-game {
+  height: 640px;
+  width: 640px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='640' height='640' preserveAspectRatio='none' viewBox='0 0 640 640'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1048%26quot%3b)' fill='none'%3e%3crect width='640' height='640' x='0' y='0' fill='rgba(227%2c 224%2c 178%2c 1)'%3e%3c/rect%3e%3cpath d='M38 640L678 0L1237.5 0L597.5 640z' fill='url(%23SvgjsLinearGradient1049)'%3e%3c/path%3e%3cpath d='M632 640L-8 0L-182 0L458 640z' fill='url(%23SvgjsLinearGradient1050)'%3e%3c/path%3e%3cpath d='M290.877752596861 640L640 290.877752596861L640 640z' fill='url(%23SvgjsLinearGradient1049)'%3e%3c/path%3e%3cpath d='M0 640L349.122247403139 640L 0 290.877752596861z' fill='url(%23SvgjsLinearGradient1050)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1048'%3e%3crect width='640' height='640' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1049'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1050'%3e%3cstop stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(15%2c 70%2c 185%2c 0.2)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+  -webkit-box-shadow: 0px 3px 0px 2px rgba(0, 0, 0, 0.1),
+    0px 6px 0px 4px rgba(0, 0, 0, 0.1), 0px 9px 0px 6px rgba(0, 0, 0, 0.1),
+    0px 12px 0px 8px rgba(0, 0, 0, 0.1), 0px 15px 0px 10px rgba(0, 0, 0, 0.1),
+    0px 18px 0px 12px rgba(0, 0, 0, 0.1), 0px 21px 0px 14px rgba(0, 0, 0, 0.1),
+    0px 24px 0px 16px rgba(0, 0, 0, 0.1), 0px 27px 0px 18px rgba(0, 0, 0, 0.1),
+    0px 30px 0px 20px rgba(0, 0, 0, 0.1), 18px 15px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 3px 0px 2px rgba(0, 0, 0, 0.1),
+    0px 6px 0px 4px rgba(0, 0, 0, 0.1), 0px 9px 0px 6px rgba(0, 0, 0, 0.1),
+    0px 12px 0px 8px rgba(0, 0, 0, 0.1), 0px 15px 0px 10px rgba(0, 0, 0, 0.1),
+    0px 18px 0px 12px rgba(0, 0, 0, 0.1), 0px 21px 0px 14px rgba(0, 0, 0, 0.1),
+    0px 24px 0px 16px rgba(0, 0, 0, 0.1), 0px 27px 0px 18px rgba(0, 0, 0, 0.1),
+    0px 30px 0px 20px rgba(0, 0, 0, 0.1), 18px 15px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.card {
+  height: calc(33.333% - 10px);
+  width: calc(25% - 10px);
+  margin: 5px;
+  position: relative;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform 0.9s;
+}
+
+.card:active {
+  transform: scale(0.97);
+  transition: transform 0.2s;
+}
+
+.card-face,
+.card-back {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  border-radius: 5px;
+
+  backface-visibility: hidden;
+}
+
+.card-face {
+  transform: rotateY(180deg);
+}
+
+/* flip card animation */
+
+.card.flip {
+  transform: rotateY(180deg);
+}
